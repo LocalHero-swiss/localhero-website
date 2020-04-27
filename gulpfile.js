@@ -120,9 +120,17 @@ function watchFiles() {
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
+gulp.task('serveprod', function() {
+  connect.server({
+    root: [__dirname],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+});
+
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
-const build = gulp.series(vendor, gulp.parallel(css, js));
+const build = gulp.series(vendor, gulp.parallel(css, js), serveprod);
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
 // Export tasks
