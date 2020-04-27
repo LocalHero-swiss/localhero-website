@@ -120,13 +120,13 @@ function watchFiles() {
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
-gulp.task('serveprod', function() {
+function serveprod() {
   connect.server({
     root: [__dirname],
     port: process.env.PORT || 5000, // localhost:5000
     livereload: false
   });
-});
+}
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
