@@ -1,0 +1,283 @@
+#mainNav {
+    background-color: #FFF8E8 !important;
+}
+
+
+
+.nav-item, .nav-link {
+    color: black !important;
+    font-family: 'Varela Round';
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 1.8px;
+    text-align: right;
+}
+
+.masthead {
+    background: none;
+    background-color:#FFF8E8 !important;
+}
+
+.heroImg {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.heroImg2 {
+    width: 5%;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-container{
+    width: 95% !important;
+    max-width: 95% !important;
+}
+
+
+.header-title{
+    width: 60%;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #000000;
+    letter-spacing:4px;
+}
+
+.header-text{
+    width: 60%;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 1.1em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    text-align: left;
+    color: #000000;
+    letter-spacing:1px;
+    text-align: left;
+    color: #211f1f;
+}
+
+.btn {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.1rem 1.1rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    border-radius: 1000px;
+    width: 100%;
+    border-color: black;
+    border: 1px;
+    font-weight: bold;
+
+}
+
+.nopad{
+    padding:0;
+}
+
+.btn-primary {
+background-color: #a51d1d;
+}
+
+.btn-primary:hover {
+  background-color: #800000;
+  font-weight: bold;
+}
+.btn-second {
+background-color: #ffffff;
+color: #a51d1d;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: 1.8px;
+
+}
+
+.btn-second:hover {
+background-color: #faead1;
+font-weight: bold;
+color: #a51d1d;;
+
+}
+
+.btn-third {
+background-color: transparent;
+border: solid 1.5px #a51d1d;
+color: #a51d1d;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: 1.8px;
+
+}
+
+.btn-third:hover {
+    background-color: #faead1;
+    font-weight: bold;
+    color: #a51d1d;
+}
+
+.btn-fourth {
+  background-color: transparent;
+  border: solid 1.5px #faead1;
+  color: #faead1;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.8px;
+  
+  }
+  
+  .btn-fourth:hover {
+      background-color: #800000
+      ;
+      font-weight: bold;
+      color: #faead1;
+  }
+  
+
+
+.btn-primary:focus {
+background-color: #990000;
+color: white;
+}
+
+.btn-primary:active {
+background-color: #467370 !important;
+}
+
+.about-section {
+padding-top: 10rem;
+background: #fcfcfc;
+}
+
+
+
+  .magenta-title{
+    font-family: 
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.92;
+    letter-spacing: 2.6px;
+    text-align: center;
+    color: #a51d1d;
+  }
+
+  .text-black-999{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.94;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #211f1f;
+  }
+
+  .text-black-888-title {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-family: CenturyGothic;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #211f1f;
+  }
+
+
+  .text-black-888{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #211f1f;
+}
+
+
+
+
+  @media (min-width: 992px) {
+    .projects-section .project-text {
+      padding: 5rem;
+    }
+    .projects-section .project-text hr {
+      border-color: black;
+      border-width: .25rem;
+      width: 30%;
+    }
+  }
+
+  .contact-section .card hr {
+    border-color: black;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  
+ 
+
+  .background-red {
+    background-color: #a51d1d !important;   
+}
+
+.background-darkred {
+    background-color: #3e0c0c !important;   
+}
+
+.text-white-777-title {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.text-white-777 {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+@media (min-width: 800px) {
+    .header-title {
+        font-size: 2.75em;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .header-title {
+        font-size: 1.75em;
+    }
+  }
