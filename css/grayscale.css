@@ -12,7 +12,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #161616;
+  color: #800000
   border: 1px solid #161616;
 }
 
@@ -182,7 +182,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #800000;
   }
 }
 
@@ -196,7 +196,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #800000;
     border-width: .25rem;
     width: 30%;
   }
@@ -252,10 +252,10 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: black;
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: black;
 }
 
 .contact-section .social a:hover {
@@ -272,7 +272,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #800000;
 }
 
 a:focus, a:hover {
